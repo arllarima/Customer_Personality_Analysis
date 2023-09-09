@@ -1,0 +1,2 @@
+# Customer_Personality_Analysis_for_Optimize_Marketing_Campaign
+This repository implements customer segmentation using Kmeans and provides business recommendations based on the analyzed characteristics.
