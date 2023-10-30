@@ -36,13 +36,14 @@ CVR | Total_Transaction x NumWebVisitsMonth/100
     <kbd> <img src="https://github.com/arllarima/Customer_Personality_Analysis_to_Optimize_Marketing_Campaign/assets/130117653/a7e6f098-a331-4f79-b0ea-7ef2fc80f072" width=900px> </kbd> <br>
     Gambar 1 — Descriptive Analysis
     </p>
-Dari data descriptive, dapat kita analisa bahwa: <br>
-- Rata-rata pelanggan telah menjadi member selama 10 tahun <br>
-- Rata-rata pelanggan hanya memiliki satu anak <br>
-- Rata-rata pelanggan melakukan 13-14 transaksi <br>
-- Rata-rata pelanggan berbelanja mengeluarkan biaya Rp.405.127 <br>
-- Mayoritas pelanggan tidak menerima campaign <br>
-- Konversi kunjungan web dengan pembelian mayoritas pelanggan hanya sebesar 3.29% <br>
+
+Dari data descriptive di atas, dapat di analisa bahwa:
+- Rata-rata pelanggan telah menjadi member selama 10 tahun
+- Rata-rata pelanggan hanya memiliki satu anak
+- Rata-rata pelanggan melakukan 13-14 transaksi
+- Rata-rata pelanggan berbelanja mengeluarkan biaya Rp 405.127
+- Mayoritas pelanggan tidak menerima campaign
+- Konversi kunjungan web dengan pembelian mayoritas pelanggan hanya sebesar 3.29%
 
 ### Conversion Rate by Income and Spending
 Pada tahap ini akan dilakukan analisis mengenai hubungan Conversion Rate dengan income, total spending, dan usia pelanggan. <br>
@@ -50,18 +51,20 @@ Pada tahap ini akan dilakukan analisis mengenai hubungan Conversion Rate dengan 
     <kbd> <img src="https://github.com/arllarima/Customer_Personality_Analysis_to_Optimize_Marketing_Campaign/assets/130117653/c8c401c6-fc5c-453f-a9fe-8d58c59328c7" width=700px> </kbd> <br>
     Gambar 2 - Plot Korelasi Conversion Rate (CVR) dengan Income dan Total Spending
 </p>
-Dari visualisasi data diatas, dapat kita analisa bahwa: <br>
-- Terlihat adanya korelasi positif antara Conversion Rate khususnya dengan Income dan Total Spending. <br>
-- Semakin tinggi Pendapatan dan Total Spending pelanggan, maka Conversion Rate juga semakin tinggi. <br>
-- Income dan Total Spending menunjukkan kapasitas keuangan pelanggan, pelanggan dengan kapasitas keuangan yang lebih tinggi memiliki Conversion Rate yang lebih tinggi. <br>
+
+Dari visualisasi data di atas, dapat kita analisa bahwa:
+- Terlihat adanya korelasi positif antara Conversion Rate khususnya dengan Income dan Total Spending.
+- Semakin tinggi Pendapatan dan Total Spending pelanggan, maka Conversion Rate juga semakin tinggi.
+- Income dan Total Spending menunjukkan kapasitas keuangan pelanggan, pelanggan dengan kapasitas keuangan yang lebih tinggi memiliki Conversion Rate yang lebih tinggi.
 
 ### Conversion Rate by Age
 <p align="center">
     <kbd> <img src="https://github.com/arllarima/Customer_Personality_Analysis_to_Optimize_Marketing_Campaign/assets/130117653/080aaac6-0477-48ee-b5f8-d165e0732e86" width=400px> </kbd> <br>
      Gambar 3 - Plot Korelasi Conversion Rate (CVR) dengan Age
 </p>
-Dari visualisasi data diatas, dapat kita analisa bahwa: <br>
-- Usia tidak menunjukkan korelasi yang tinggi dengan Conversion Rate. <br>
+
+Dari visualisasi data di atas, dapat kita analisa bahwa:
+- Usia tidak menunjukkan korelasi yang tinggi dengan Conversion Rate.
 - Conversion Rate terdistribusi dengan baik pada setiap umur, hal ini menunjukkan bahwa umur tidak berpengaruh signifikan terhadap Conversion Rate pelanggan. <br>
 
 ## Data Modeling with K-Means Clustering
@@ -104,28 +107,28 @@ Berdasarkan hasil analisis clustering, ditemukan karakteristik masing-masing seg
 <br>
 
 **Cluster 0: Low Spender Customer**<br>
-1. Rata-rata melakukan 18 transaksi dengan pengeluaran bulanan sekitar Rp 425.867.
-2. Pendapatan rata-rata pada segmen ini tergolong cukup tinggi, yakni sekitar Rp 52.857.438 per tahun.
-3. Tingkat konversi pada segmen ini adalah sedang, sekitar 3%.
-4. Mayoritas berada di umur 50 th - 60 th an.
+- Rata-rata melakukan 18 transaksi dengan pengeluaran bulanan sekitar Rp 425.867.
+- Pendapatan rata-rata pada segmen ini tergolong cukup tinggi, yakni sekitar Rp 52.857.438 per tahun.
+- Tingkat konversi pada segmen ini adalah sedang, sekitar 3%.
+- Mayoritas berada di umur 50 th - 60 th an.
 
 **Cluster 1: Very Low Spender Customer**<br>
-1. Rata-rata hanya melakukan 7 transaksi dengan pengeluaran bulanan sekitar Rp 65.308.
-2. Pendapatan rata-rata pada segmen ini tergolong terendah, yakni sekitar Rp 33.063.385 per tahun.
-3. Tingkat konversi pada segmen ini adalah yang terendah, hanya sekitar 1%.
-4. Mayoritas berada di umur 40 th - 50 th an.
+- Rata-rata hanya melakukan 7 transaksi dengan pengeluaran bulanan sekitar Rp 65.308.
+- Pendapatan rata-rata pada segmen ini tergolong terendah, yakni sekitar Rp 33.063.385 per tahun.
+- Tingkat konversi pada segmen ini adalah yang terendah, hanya sekitar 1%.
+- Mayoritas berada di umur 40 th - 50 th an.
 
 **Cluster 2: Mid Spender Customer**<br>
-1. Rata-rata melakukan sekitar 20 transaksi dengan pengeluaran bulanan mencapai Rp 1.001.405.
-2. Pendapatan rata-rata pada segmen ini adalah yang tertinggi, yakni sekitar Rp 70.331.247 per tahun.
-3. Tingkat konversi pada segmen ini adalah yang tertinggi, sekitar 9%.
-4. Mayotitas berada di umur 40 th - 60 th an.
+- Rata-rata melakukan sekitar 20 transaksi dengan pengeluaran bulanan mencapai Rp 1.001.405.
+- Pendapatan rata-rata pada segmen ini adalah yang tertinggi, yakni sekitar Rp 70.331.247 per tahun.
+- Tingkat konversi pada segmen ini adalah yang tertinggi, sekitar 9%.
+- Mayotitas berada di umur 40 th - 60 th an.
 
 **Cluster 3: High Spender Customer**<br>
-1. Rata-rata melakukan sekitar 24 transaksi dengan pengeluaran bulanan mencapai Rp 1.112.685.
-2. Pendapatan rata-rata pada segmen ini tergolong cukup tinggi, yakni sekitar Rp 66.503.343 per tahun.
-3. Tingkat konversi pada segmen ini adalah cukup sedang, sekitar 5%.
-4. Mayoritas berada di umur 50 th - 60 th an.
+- Rata-rata melakukan sekitar 24 transaksi dengan pengeluaran bulanan mencapai Rp 1.112.685.
+- Pendapatan rata-rata pada segmen ini tergolong cukup tinggi, yakni sekitar Rp 66.503.343 per tahun.
+- Tingkat konversi pada segmen ini adalah cukup sedang, sekitar 5%.
+- Mayoritas berada di umur 50 th - 60 th an.
 
 ### Percentage of Each Cluster
 <p align="center">
@@ -147,34 +150,113 @@ Berdasarkan hasil analisis clustering, ditemukan karakteristik masing-masing seg
 **Insights:** <br>
 
 **Cluster Very Low Spender:** <br>
-1. Tingkat kunjungan ke situs web perusahaan paling tinggi dibandingkan dengan cluster lain.
-2. Respons terhadap kampanye yang disajikan masih rendah.
-3. Memiliki jumlah populasi terbanyak.
-4. Diperlukan strategi untuk meningkatkan keterlibatan dan respons terhadap kampanye.
+- Tingkat kunjungan ke situs web perusahaan paling tinggi dibandingkan dengan cluster lain.
+- Respons terhadap campaign yang disajikan masih rendah.
+- Memiliki jumlah populasi terbanyak.
+- Diperlukan strategi untuk meningkatkan keterlibatan dan respons terhadap campaign.
 
 **Cluster Low Spender:** <br>
-1. Tingkat kunjungan web cukup tinggi.
-2. Sering berbelanja di platform website dan toko fisik.
-3. Aktif menggunakan kupon penawaran dan promo.
-4. Respons kampanye masih dapat ditingkatkan. <br>
+- Tingkat kunjungan web cukup tinggi.
+- Sering berbelanja di platform website dan toko fisik.
+- Aktif menggunakan kupon penawaran dan promo.
+- Respons campaign masih dapat ditingkatkan. <br>
 
-**Rekomendasi:** Customisasi kampanye sesuai preferensi kebutuhan dan keinginan cluster.
+**Rekomendasi:**
+- Customisasi campaign sesuai preferensi kebutuhan dan keinginan cluster. <br>
 
 **Cluster Mid Spender:** <br>
-1. Mayoritas pelanggan jarang mengunjungi situs web perusahaan.
-2. Tetapi sering berbelanja di semua platform.
-3. Respons kampanye tidak terlalu tinggi.
-4. Jarang menggunakan promo. <br>
+- Mayoritas pelanggan jarang mengunjungi situs web perusahaan.
+- Tetapi sering berbelanja di semua platform.
+- Respons campaign tidak terlalu tinggi.
+- Jarang menggunakan promo. <br>
 
-**Rekomendasi:** Optimalkan saluran komunikasi lain seperti email, media sosial, atau platform online lainnya untuk efektif menjangkau kelompok ini.
+**Rekomendasi:**
+- Optimalkan saluran komunikasi lain seperti email, media sosial, atau platform online lainnya untuk efektif menjangkau kelompok ini. <br>
 
 **Cluster High Spender:** <br>
-1. Paling responsif terhadap kampanye.
-2. Sering berbelanja di semua platform.
-3. Tingkat kunjungan web cukup tinggi.
-4. Cukup aktif menggunakan promo. <br>
+- Paling responsif terhadap campaign.
+- Sering berbelanja di semua platform.
+- Tingkat kunjungan web cukup tinggi.
+- Cukup aktif menggunakan promo. <br>
 
-**Rekomendasi:** Tingkatkan interaksi dengan kampanye yang lebih menarik dan relevan.
+**Rekomendasi:**
+- Tingkatkan interaksi dengan campaign yang lebih menarik dan relevan.
 
+### Customer Analysis Based on Total Spending per Product
+<p align="center">
+    <kbd> <img src="https://github.com/arllarima/Customer_Personality_Analysis_to_Optimize_Marketing_Campaign/assets/130117653/a1ca0db9-ceb7-46a5-8718-d6d0cfe65620" width=600px> </kbd> <br>
+    Gambar 11 - Distribusi Produk Tiap Cluster
+</p>
+<br>
+<p align="center">
+    <kbd> <img src="https://github.com/arllarima/Customer_Personality_Analysis_to_Optimize_Marketing_Campaign/assets/130117653/927054c1-6b19-49c2-8a53-cc25f85acd15" width=600px> </kbd> <br>
+    Gambar 12 - Total Spending Product by Cluster
+</p>
 
+**Insights:** <br>
+Pelanggan di semua cluster mengeluarkan uang paling banyak untuk produk Coke dan Meat, sedangkan produk Sweet dan Fruits paling sedikit. <br>
+Berikut urutan produk favorit tiap cluster: <br>
+- High Spender = coke, meat, gold, fish, fruits, sweet
+- Mid Spender = coke, meat, fish, gold, fruits, sweet
+- Low Spender = coke, meat, gold, fish, fruits, sweet
+- Very Low Spender = coke, meat, gold, fish, fruits, sweet
+
+## Business Recommendation
+**Very Low Spender:**
+- Populasi terbanyak, yaitu 50.24 %
+- Memiliki total spending dan income terendah, namun tingkat kunjungan website tertinggi.
+- Respons terhadap campaign yang disajikan masih rendah.
+- Conversion rate terendah, hanya sekitar 1%.
+- Mayoritas berada di umur 40 th - 50 th an.
+- Urutan produk favorit: coke, meat, gold, fish, fruits, sweet
+
+**Rekomendasi:**
+- Pelanggan dari kelompok ini sering mengunjungi website, jadi perusahaan bisa menyesuaikan konten dan tawaran diskon khusus sesuai dengan minat mereka.
+- Perusahaan dapat mengingatkan pelanggan di kelompok ini tentang produk atau layanan yang mereka lihat di website dengan iklan yang disesuaikan, sehingga mereka lebih mungkin untuk melanjutkan pembelian.
+- Karena konversi rendah dan respons kurang baik, perusahaan perlu fokus pada konten yang memberikan informasi dan solusi yang bermanfaat kepada pelanggan, sehingga meningkatkan keterlibatan dan kepercayaan mereka.
+
+**Low Spender:** <br>
+- Populasi 24.08 %
+- Tingkat kunjungan web cukup tinggi.
+- Sering berbelanja di platform website dan toko fisik.
+- Aktif menggunakan kupon penawaran dan promo.
+- Respons terhadap campaign tidak terlalu tinggi.
+- Conversion rate sedang, sekitar 3%.
+- Mayoritas berada di umur 50 th - 60 th an.
+- Urutan produk favorit: coke, meat, gold, fish, fruits, sweet
+
+**Rekomendasi:**
+- Customisasi campaign sesuai preferensi kebutuhan dan keinginan cluster.
+- Karena cluster ini aktif menggunakan promo, kita dapat menawarkan cashback atau voucher diskon untuk transaksi berikutnya jika mereka mencapai batas pembelian tertentu.
+- Bundling Produk: Buat bundel produk dengan harga khusus. Ini dapat mendorong mereka untuk membeli lebih banyak item dalam satu transaksi.
+
+**Mid Spender:**
+- Populasi 14.08 %
+- Memiliki income tertinggi
+- Tingkat kunjungan website terendah, namun sering berbelanja di semua platform (web, catalog, store)
+- Jarang menggunakan promo.
+- Respons terhadap campaign tidak terlalu tinggi.
+- Conversion rate tertinggi, sekitar 9%.
+- Mayotitas berada di umur 40 th - 60 th an
+- Urutan produk favorit: coke, meat, fish, gold, fruits, sweet
+
+**Rekomendasi:**
+- Karena kelompok ini kurang aktif di website, perusahaan dapat menggunakan email, pesan teks, atau media sosial sebagai cara komunikasi alternatif untuk campaign. Ini membantu meningkatkan interaksi dan kesadaran pelanggan.
+- Pastikan pengalaman pengguna yang baik di website dan saat berinteraksi dengan produk atau layanan perusahaan.
+- Tawarkan mereka untuk bergabung dengan program loyalitas yang memberikan poin atau hadiah spesial untuk setiap transaksi.
+
+**High Spender:**
+- Populasi terendah, yaitu 11.58 %.
+- Memiliki total spending tertinggi dan sering berbelanja di semua platform (web, catalog, store)
+- Tingkat kunjungan web cukup tinggi
+- Paling responsif terhadap campaign
+- Cukup aktif menggunakan promo
+- Conversion rate sedang, sekitar 5%.
+- Mayoritas berada di umur 50 th - 60 th an.
+- Urutan produk favorit: coke, meat, gold, fish, fruits, sweet
+
+**Rekomendasi:**
+- Tingkatkan interaksi dengan campaign yang lebih menarik dan relevan.
+- Menawarkan diskon dan program loyalitas yang memberikan poin atau hadiah spesial untuk setiap transaksi, hal ini dapat menjaga minat pelanggan agar terus berbelanja.
+- Tawarkan layanan pelanggan premium seperti pengiriman ekspres atau akses awal ke penawaran eksklusif.
 
