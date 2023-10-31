@@ -1,4 +1,4 @@
-# Customer Personality Analysis for Optimize Marketing Campaign
+# Predict Customer Personality to Boost Marketing Campaign by Using Machine Learning
 **Dataset** : Provided by Rakamin Academy <br>
 **Programming Language** : Python <br>
 **Libraries** : Pandas, NumPy, Matplotlib, Seaborn
