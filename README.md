@@ -1,7 +1,7 @@
 # Predict Customer Personality to Boost Marketing Campaign by Using Machine Learning
 **Dataset** : Provided by Rakamin Academy <br>
 **Programming Language** : Python <br>
-**Libraries** : Pandas, NumPy, Matplotlib, Seaborn
+**Libraries** : Pandas, NumPy, Matplotlib, Seaborn, Scikit Learn
 
 ## Overview
 Sebuah perusahaan dapat berkembang dengan pesat saat mengetahui perilaku customer personality nya, sehingga dapat memberikan layanan serta manfaat lebih baik kepada customers yang berpotensi menjadi loyal customers. <br>
